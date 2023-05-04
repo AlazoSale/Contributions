@@ -1,0 +1,249 @@
+body {
+	margin: 0;/*background-image: linear-gradient(to bottom, #efd59f, #96d0ff);*/
+	padding: 0;/*background: linear-gradient(to bottom, #cf7b7b, #2ac5e8);*/
+	background: radial-gradient(circle, rgb(160, 193, 214) 0%, rgb(225, 232, 240) 100%) center no-repeat;
+	font-family: Arial, sans-serif;
+	background-size: contain;
+}
+header {
+	background: radial-gradient(circle, rgb(237, 143, 127) 0%, rgb(125, 177, 236) 100%);
+	background-color: #333;
+	color: #fff;
+}
+div ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+div li {
+	display: inline-block;
+	margin-right: 20px;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.index_section {
+	margin-bottom: 40px;
+}
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+p {
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+.intro-page2{
+	padding: 0%;margin: 0%;
+	height: 700px;
+	width:100%;
+	background-size: cover;
+	background-image: url('intro-page2.png');
+}
+.intro-text{
+	color: aliceblue;
+	font-family: sans-serif;
+	padding: 6%;
+	justify-content: center;
+	text-align: center;
+	margin-top:0% ;
+	height: 400px;
+	width: 40%;
+}
+.intro-text p{
+	font-size:20px ;
+}
+.intro-text h1{
+	font-size: 36px;
+}
+.intro-page{
+	margin-bottom: 0%;
+	padding: 0%;
+	height: 600px;
+	width:100%;
+	background-size:cover;
+	background-image: url('intro-page0.png');
+}
+.transparent-btn {
+	
+	display: inline-block;
+	width: 200px; 
+	height: 50px; 
+	background-color: transparent;
+	border: 1px solid rgb(255, 255, 255);
+	border-radius: 40px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	text-decoration: none;
+	line-height: 50px; /*Important for text-align*/
+  }
+
+
+  .intro-text2{
+	color: black;
+	font-family: sans-serif;
+	padding: 6%;
+	justify-content: center;
+	text-align: center;
+	margin-top:0% ;
+	height: 400px;
+	width: 40%;
+}
+.intro-pagemain{
+	height: 600px;
+	width:100%;
+	background-size:cover;
+	background-image: url('intro-page1.png');
+}
+
+  .profile {
+	background-color: rgb(104, 193, 211);
+	color: #fff;
+	padding: 3%;
+	border-radius: 4%;
+	width:50%;
+	height: 50%;
+	margin-top: 50px;
+	margin-left: 250px;
+	margin-bottom: 10%;
+  }
+
+/*content*/
+
+.content {
+	margin: 0%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	background-color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+  }
+  
+  .row {
+	display: flex;
+	flex-basis: 100%;
+	justify-content: center;
+  }
+  
+  .box {
+	width: 400px;
+	height: 500px;
+	background-color: #ccc;
+	margin: 10px;
+	position: relative;
+  }
+  
+  .hover-box {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+  }
+  
+  .hover-box p{
+	font-family:"sans-serif",cursive;
+	letter-spacing: 0.3rem;
+	font-weight: 100;
+	font-size: 1.3rem;
+	text-shadow: 0 0.1rem 0.2rem rgba(0,0,0,3);
+	position: absolute;
+	top:2rem;
+	left: 8rem;
+	justify-content: center;
+	align-items: center;
+  }
+
+  .box:hover .hover-box {
+	opacity: 1;
+  }
+  
+/*Auto scroll div*/
+
+
+
+.divdisplay {
+	margin: 5%;
+    margin-left: 150px;
+    width: 1000px;
+    height: 600px;
+    display: flex;
+  }
+  .divbox1 {
+	width: 100%;
+	height: 100%;
+	background-size:cover ;
+	background-image: url('/shop/shopinnercontent/pant/pant4.png');
+  }
+
+  .divbox1link {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .twins{
+    width: 40%;
+    height: 50%;
+	flex-direction: column;
+  }
+  .divboxa {
+    margin-left: 10px;
+	width: 100%;
+	height: 98%;
+	background-size:cover ;
+	background-image: url('/shop/shopinnercontent/footwear/footwear6.png');
+  }
+  .divboxalink {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .divboxb {
+    margin-top: 10px;
+    margin-left: 10px;
+	width: 100%;
+	height: 98%;
+	background-size:cover ;
+	background-image: url('/shop/shopinnercontent/accessories/accessories5.png');
+  }
+  .divboxblink {
+    width: 100%;
+    height: 98%;
+    overflow: hidden;
+  }
+  
+  
