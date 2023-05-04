@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="general.css">
+    <title>Display</title>
+</head>
+<body>
+<ul>
+    <h1>All Data</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Customer Phone-Number</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% data.forEach(entry => { %>
+                <tr>
+                    <td><%= entry.phone %></td>
+                </tr>
+            <% }) %>
+        </tbody>
+    </table>
+
+   
+</ul>
+</body>
+</html>
+
+
+<!-- <% data.forEach(entry => { %>
+        <p>Fetched Data<p>
+        <li><%= entry.book_name %></li>
+        <li><%= entry.author %></li>
+        <li><%= entry.price %></li>
+        <li><%= entry.quantity %></li>
+        <li><%= entry.Cust_id %></li>
+    <% }) %>-->
