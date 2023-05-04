@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>GinStyle</title>
+	<link rel="stylesheet" href="stylesindex.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<%- include("./partials/header.ejs") %>
+	<div class="intro-pagemain">
+    
+		<!-- image here-->
+		
+	</div>
+	
+	<!--items-->
+	<%- include("./partials/items.ejs") %>
+	<!--items-->
+	<hr>
+	<div class="intro-page">
+            <!-- image here-->
+			<div class="intro-text2">
+				<h1 style="font-size: 40px;">Multiple Products Availability</h1>
+			   <p style="font-size: 22px;">
+				Choose from over 35+ products available to Buy <br> The database has the records of all the items detail, number of transactions and many more
+			   </p>
+	   </div>
+    </div>
+	<div class="ss">
+		<div class="slideshow">
+			<a href="/shop/footwear/3" class="slideshow-link">
+				<img src="images/1.png">
+			</a>
+			<a href="/shop/shirt/6" class="slideshow-link">
+				<img src="images/2.png">
+			</a>
+			<a href="/shop/pant/2" class="slideshow-link light">
+				<img src="images/3.png">
+			</a>
+			<a href="/shop/footwear/5" class="slideshow-link">
+				<img src="images/4.png">
+			</a>
+			<a href="/shop/accessories/2" class="slideshow-link">
+				<img src="images/5.png">
+			</a>
+		</div>
+	</div>
+    <!-- -->
+	<%- include("./partials/default.ejs") %>
+      
+     <!-- --> 
+	 <%- include("./partials/footer.ejs") %>
+	 <script>const slideshow=document.querySelector(".slideshow");
+
+		setInterval(()=>{
+			const firstIcon=slideshow.firstElementChild;//remove first child
+			firstIcon.classList.add('faded-out');
+			const thirdIcon=slideshow.children[3];
+			thirdIcon.classList.add('light');
+			thirdIcon.previousElementSibling.classList.remove('light');
+			setTimeout(()=>{
+				slideshow.removeChild(firstIcon);
+				slideshow.appendChild(firstIcon);
+				setTimeout(()=>{
+					firstIcon.classList.remove('faded-out');
+				},500)
+				
+			},500)
+			
+		
+		
+		},3000)
+		</script>
+</body>
+</html>
