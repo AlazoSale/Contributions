@@ -1,0 +1,17 @@
+formal1: COOFANDY Men's V-Neck Suit Vests Fashion Formal Slim Fit Business Dress Vest Waistcoat
+	Price:	INR2,524.65
+
+formal2: Furuyal Men's Suits 3 Piece Slim Fit Suit Set,Two Button Wedding Business Tuxedo Solid Blazer Jacket Vest Pants with Tie
+	Price:	INR7,227.12
+
+formal3: MAGE MALE Men's 3 Pieces Suit Slim Fit One Button Business Wedding Party Solid Blazer Vest Pants Set with Tie
+	Price:	INR7,154.72
+
+formal4: COOFANDY Men's Formal Fashion Vest Layered Waistcoat Business Dress Suit Vests for Wedding
+	Price:	INR3,280.61
+
+formal5: Mens Suits Men's Tuxedo Suit Outfits for Men Slim Fit Prom Wedding Suits 3 Piece Blazer Vest Pants Set
+	Price:	INR6,949.31
+
+formal6: DONGD Mens Formal Suit Vest Business Dress Vest for Suit or Tuxedo
+	Price:	INR2,272.10

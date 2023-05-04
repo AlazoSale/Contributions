@@ -1,0 +1,17 @@
+pants1: LA Police Gear Men's Core Cargo Lightweight Tactical Pants, Durable Ripstop Cargo Pants for Men, Stretch Waistband CCW Pants
+	Price:	INR3,029.75
+
+pants2: WZIKAI Mens Casual Joggers Pants Cotton Drawstring Chino Cargo Pants for Men Workout Sweatpants Casual Long Trousers
+	Price:	INR2,187.08
+
+pants3: Plaid&Plain Men’s Slim Fit Khaki Pants Men’s Tapered Chino Pants
+	Price:	INR2,145.83
+
+pants4: FANLUKA Mens Joggers Cargo Pants Outdoor Sports Fashion Casual Athletics Cool Pants for Men Hip Hop with Drawstring
+	Price:	INR2,187.92
+
+pants5: GORGLITTER Men's Drawstring Pocket Cargo Pants Straight Leg Jogger Pants 
+	Price:	INR3,029.75
+
+pants6: Fabletics Men's The Only Pant (Modern Slim Fit), Performance, Lightweight, Breathable, Water Resistant Stretch Woven, XL, Olive Green
+	Price:	INR7,993.18

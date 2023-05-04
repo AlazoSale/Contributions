@@ -1,0 +1,17 @@
+mobile1: ASUS ROG Phone 6 Batman Edition Cell Phone, 6.78” FHD+ 2448x1080 165Hz, 6000mAh Battery, 50MP/13MP/5MP Triple Camera, 12MP Front, 12GB RAM, 256GB Storage, 5G LTE Unlocked Dual SIM, AI2201-12G256G-BM
+	Price:	INR84,182.23
+
+mobile2: REDMAGIC 7 165Hz Gaming Phone with 6.8" Screen and 64MP Camera, 5G Android Smartphone with Snapdragon 8 Gen 1 and 18GB+256GB, 4500mAh Battery and US Version Factory Unlocked Cell Phone Transparent
+	Price:	INR78,206.08
+
+mobile3: Black Shark 4 Pro 5G Unlocked Gaming Phone, 12GB + 256GB Mobile Phone with 120W Charging 4500mAh Snapdragon 888 + LPDDR5 + UFS3.1, 144Hz 6.67'' Screen, Magnetic Pop-Up Triggers, NFC (Black Shadow)
+	Price:	INR41,165.52
+
+laptop1: Acer Nitro 5 AN515-58-525P Gaming Laptop | Intel Core i5-12500H | NVIDIA GeForce RTX 3050 Laptop GPU | 15.6" FHD 144Hz IPS Display | 8GB DDR4 | 512GB PCIe Gen 4 SSD | Killer Wi-Fi 6 | Backlit Keyboard
+	Price:  INR67,345.62
+
+laptop2: 2022 Newest Lenovo Ideapad 5i Pro 16 inch Laptop, 2.5K QHD IPS Display, 11th Gen Intel Core i5-11300H(Beats i7-10710U),8GB RAM, 1TB SSD, NVIDIA GeForce MX450, Backlit KB, IR Camera, Windows 11
+	Price:	INR57,243.65
+
+laptop3: ASUS Zenbook 2-in-1 Laptop, 15.6 inch FHD Touchscreen, AMD Ryzen 7 5700U Processor (Beats i9-10885H), NVIDIA GeForce MX450, Backlit KYB, Harman/Kardon, Wi-Fi Master, Win 11 (8GB RAM | 1TB PCIe SSD)
+	Price:	INR67,262.28

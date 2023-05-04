@@ -1,0 +1,17 @@
+accessories1: PROSTEEL Stainless Steel Cuban Links Snake Chain Necklace, Silver/Gold/Black Tone, Nickel-Free, Hypoallergenic Necklace
+	Price:	INR1,261.90
+
+accessories2: Jstyle Stainless Steel Black Unique Small Hoop Earrings for Men Huggie Earrings 1 Pairs
+	Price:	INR840.99
+
+accessories3: Sword Drop Dangle Small Hoop Earrings for Men Stainless Steel Engrave Animal Cross Dagger Charms Dangling Hoops Cuff Cartilage Wrap Hypoallergenic Vintage Punk Pray
+	Price:	INR756.81
+
+accessories4: TIGRADE 4mm 6mm 8mm 10mm Black Titanium Rings Wedding Band Matte Comfort Fit for Men
+	Price:	INR1,118.79
+
+accessories5: King Will LOOP Mens Women Tungsten Carbide Wedding Band 6mm/8mm Rose Gold Line Ring Black Silver Blue Brushed Gold Groove Tungsten rings Comfort Fit
+	Price:	INR2,356.28
+
+accessories6: ChainsHouse Flat Byzantine Chain Link Necklace for Men, 6mm/8mm/10mm Width, 18-30inch Length, 316L Stainless Steel/18K Real Gold Plated Mens Bracelet Jewelry
+	Price:	INR2,549.91

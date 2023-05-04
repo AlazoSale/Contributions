@@ -1,0 +1,17 @@
+footwear1: GLANOUDUN Steel Toe Shoes for Men Women,Lightweight Comfortable Safety Shoes for Men Steel Toe Wide,Indestructible Working Shoes for Men Black, Breathable Steel Toe Tennis Shoes
+	Price:	INR2,861.38
+
+footwear2: adidas mens Tech Response Spikeless
+	Price:	INR3,863.16
+
+footwear3: WOLVERINE Men's Blade LX Waterproof 6" Comp Toe Met Guard Work Boot
+	Price:	INR15,990.58
+
+footwear4: Nike Men's Air Monarch Iv (4e) Cross Trainer
+	Price:	INR5,132.64 
+
+footwear5: Nautica Men's Casual Lace-Up Fashion Sneakers Oxford Comfortable Walking Shoe
+	Price:	INR3,786.55
+
+footwear6: Timberland Men's Flume Mid Waterproof Hiking Boot
+	Price:	INR5,870.93 
