@@ -1,0 +1,843 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:Haettenschweiler;
+    font-weight:0;
+}
+
+
+
+
+body{
+    
+    background-color:  rgb(12, 26, 36);
+}
+header{
+    position: relative;
+    background-color:  rgb(12, 26, 36);
+    width:100%;
+    height:20vh;
+}
+.innerheader{
+    position: relative;
+    width: 100%;
+    height:90%;
+}
+.logo{
+    position: absolute;
+    left:2%;
+    top:20%;
+    background-image: url(logomain.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 19%;
+    height: 36%;
+}
+
+.headinfo1{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 20%;
+    height: 25%;
+    top:20%;
+    left:40%;
+}
+.button1{
+    letter-spacing: 0.1rem;
+    text-align: center;
+    border-radius: 10px;
+    padding:3%;
+    padding-right: 1.5rem;
+    padding-left:1.5rem ;
+    color: #fff;
+    background-color: rgb(39, 53, 67);
+}
+.button2{
+    letter-spacing: 0.1rem;
+    text-align: center;
+    border-radius: 10px;
+    padding:3%;
+    padding-right: 1.5rem;
+    padding-left:1.5rem ;
+    color: #fff;
+    margin-left: 1.5rem;
+    background-color: rgb(39, 53, 67);
+}
+.button3{
+    letter-spacing: 0.1rem;
+    text-align: center;
+    border-radius: 10px;
+    padding:3%;
+    padding-right: 1rem;
+    padding-left:1rem ;
+    margin-left: 1.5rem;
+    color: #fff;
+    background-color: rgb(39, 53, 67);
+}
+.headinfo2{
+    height:40%;
+    width: 20%;
+    position: absolute;
+    left: 78%;
+}
+
+.connect{
+    left: 10%;
+    line-height: 1;
+    color: #fff;
+    border-radius: 10px;
+    width: 50%;
+    height:35%;
+    position: relative;
+    padding: 3%;
+    background-color: rgb(89, 193, 193);
+}
+.connect i{
+    margin-left: 6%;
+    margin-right: 4%;
+    font-size: 130%;
+    color:white;
+}
+
+
+.bestprice{
+    position: absolute;
+    top:60%;
+    left:43%;
+    font-size: 28px;
+    font-family: "Oswald";
+    color: #949494;
+}
+
+
+.bar{
+    position: absolute;
+    left: 93%;
+    top:30%;
+    width: 3%;
+    height:20%;
+}
+
+.toggle {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(39, 53, 67);
+    border-radius: 50px;
+    position: absolute;
+    transition: background-color 0.5s;
+}
+
+
+.circle {
+    width: 45%;
+    height: 98%;
+    background-color: rgb(89, 193, 193);
+    border-radius: 50%;
+    position: absolute;
+    top: 4%;
+    left: calc(100% - 45%);
+    transition: left 0.5s;
+}
+
+   
+
+#check:checked ~ .toggle .circle {
+    left: -1%;
+}
+
+ 
+
+#check:checked ~ .toggle {
+    background-color: rgb(237, 237, 237);
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}
+.c1{
+    
+    margin-left:2% ;
+    text-align: center;
+    width: 15%;
+    height:10vh;
+}
+.c2{
+    margin-left:2% ;
+    text-align: center;
+    width: 10%;
+    height:10vh;
+}
+.c3{
+    text-align: center;
+    width:40%;
+    height:10vh;
+}
+.c4{
+    width: 15%;
+    height:10vh;
+}
+.c5{
+    text-align: center;
+    width: 15%;
+    height:10vh;
+}
+.up{
+    color: rgb(89, 193, 193);;
+    font-size: 248%;
+}
+.up1{
+    letter-spacing: 0.1rem;
+    color:white;
+    position: relative;
+    top :-25%;
+    font-size:548%;
+}
+.down{
+    letter-spacing: 0.01rem;
+    color: #949494;
+}
+
+.fix{
+    background-color: rgb(12, 26, 36);/*rgb(12, 26, 36);*/
+    width: 100vw;
+    height:6vh;
+    position: fixed;
+}
+
+.fixp{
+    color: rgb(89, 193, 193);
+    border-radius: 2px;
+    letter-spacing: 0.01rem;
+    position: absolute;
+    font-family:'Times New Roman', Times, serif ;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(89, 193, 193);
+    width:13%;
+    font-size: 1rem;
+    padding: 0.6%;
+    left: 41%;
+    
+}
+
+
+
+.table1{
+    position: relative;
+    margin-top: 6%;
+    width: 100%;
+    height: 50vh;
+}
+table th:nth-child(1) {
+    color:rgb(127, 126, 128);
+    font-family:'Times New Roman';
+    font-size: 160%;
+    position: relative;
+    left: 6%;
+  }
+  table th:nth-child(2) {
+    color:rgb(127, 126, 128);
+    font-family:'Times New Roman';
+    font-size: 160%;
+    position: relative;
+    left: 20%;
+  }
+  table th:nth-child(3) {
+    color:rgb(127, 126, 128);
+    font-family:'Times New Roman';
+    font-size: 140%;
+    position: relative;
+    left:44%;
+  }
+  table th:nth-child(4) {
+    color:rgb(127, 126, 128);
+    font-family:'Times New Roman';
+    font-size: 140%;
+    position: relative;
+    left:79%;
+  }
+  table th:nth-child(5) {
+    color:rgb(127, 126, 128);
+    font-family:'Times New Roman';
+    font-size: 140%;
+    position: relative;
+    left: 110%;
+  }
+  table th:nth-child(6) {
+    color:rgb(127, 126, 128);
+    font-family:'Times New Roman';
+    font-size: 140%;
+    position: relative;
+    left:131%;
+  }
+  table{
+    position: relative;
+    border-collapse: collapse;
+  }
+
+.d0{
+    left: 3%;
+    position: relative;
+    color: white;
+}
+.d1{
+    left: 3%;
+    position: relative;
+    color: white;
+}
+.d2{
+    left: 3%;
+    position: relative;
+    color: white;
+}
+.d3{
+    left: 3%;
+    position: relative;
+    color: white;
+}
+.d4{
+    left: 3%;
+    position: relative;
+    color: white;
+}
+.d5{
+    left: 3%;
+    position: relative;
+    color: white;
+}
+.d6{
+    left: 3%;
+    position: relative;
+    color: white;
+}
+.d7{
+    left: 3%;
+    position: relative;
+    color: white;
+}
+.d8{
+    left: 3%;
+    position: relative;
+    color: white;
+}
+.d9{
+    left: 3%;
+    position: relative;
+    color: white;
+}
+
+table .d0 td {
+    height:3rem;
+    font-family:'Times New Roman';
+    font-size: 160%;
+    position: relative;
+    padding-left: 3%;
+}
+table .d0 td:nth-child(1) {
+    left: 6%;
+}
+table .d0 td:nth-child(2) {
+    left: 20%;
+}
+table .d0 td:nth-child(3) {
+    left:44%;
+    font-size: 140%;
+}
+table .d0 td:nth-child(4) {
+    left:79%;
+    font-size: 140%;
+}
+table .d0 td:nth-child(5) {
+    left: 110%;
+    font-size: 140%;
+}
+table .d0 td:nth-child(6) {
+    left:131%;
+    font-size: 140%;
+}
+
+table .d1 td {
+    height:3rem;
+    font-family:'Times New Roman';
+    font-size: 160%;
+    position: relative;
+    padding-left: 3%;
+}
+table .d1 td:nth-child(1) {
+    left: 6%;
+}
+table .d1 td:nth-child(2) {
+    left: 20%;
+}
+table .d1 td:nth-child(3) {
+    left:44%;
+    font-size: 140%;
+}
+table .d1 td:nth-child(4) {
+    left:79%;
+    font-size: 140%;
+}
+table .d1 td:nth-child(5) {
+    left: 110%;
+    font-size: 140%;
+}
+table .d1 td:nth-child(6) {
+    left:131%;
+    font-size: 140%;
+}
+
+
+
+
+
+table .d2 td {
+    height:3rem;
+    font-family:'Times New Roman';
+    font-size: 160%;
+    position: relative;
+    padding-left: 3%;
+}
+table .d2 td:nth-child(1) {
+    left: 6%;
+}
+table .d2 td:nth-child(2) {
+    left: 20%;
+}
+table .d2 td:nth-child(3) {
+    left:44%;
+    font-size: 140%;
+}
+table .d2 td:nth-child(4) {
+    left:79%;
+    font-size: 140%;
+}
+table .d2 td:nth-child(5) {
+    left: 110%;
+    font-size: 140%;
+}
+table .d2 td:nth-child(6) {
+    left:131%;
+    font-size: 140%;
+}
+
+
+table .d3 td {
+    height:3rem;
+    font-family:'Times New Roman';
+    font-size: 160%;
+    position: relative;
+    padding-left: 3%;
+}
+table .d3 td:nth-child(1) {
+    left: 6%;
+}
+table .d3 td:nth-child(2) {
+    left: 20%;
+}
+table .d3 td:nth-child(3) {
+    left:44%;
+    font-size: 140%;
+}
+table .d3 td:nth-child(4) {
+    left:79%;
+    font-size: 140%;
+}
+table .d3 td:nth-child(5) {
+    left: 110%;
+    font-size: 140%;
+}
+table .d3 td:nth-child(6) {
+    left:131%;
+    font-size: 140%;
+}
+
+table .d4 td {
+    height:3rem;
+    font-family:'Times New Roman';
+    font-size: 160%;
+    position: relative;
+    padding-left: 3%;
+}
+table .d4 td:nth-child(1) {
+    left: 6%;
+}
+table .d4 td:nth-child(2) {
+    left: 20%;
+}
+table .d4 td:nth-child(3) {
+    left:44%;
+    font-size: 140%;
+}
+table .d4 td:nth-child(4) {
+    left:79%;
+    font-size: 140%;
+}
+table .d4 td:nth-child(5) {
+    left: 110%;
+    font-size: 140%;
+}
+table .d4 td:nth-child(6) {
+    left:131%;
+    font-size: 140%;
+}
+
+
+table .d5 td {
+    height:3rem;
+    font-family:'Times New Roman';
+    font-size: 160%;
+    position: relative;
+    padding-left: 3%;
+}
+table .d5 td:nth-child(1) {
+    left: 6%;
+}
+table .d5 td:nth-child(2) {
+    left: 20%;
+}
+table .d5 td:nth-child(3) {
+    left:44%;
+    font-size: 140%;
+}
+table .d5 td:nth-child(4) {
+    left:79%;
+    font-size: 140%;
+}
+table .d5 td:nth-child(5) {
+    left: 110%;
+    font-size: 140%;
+}
+table .d5 td:nth-child(6) {
+    left:131%;
+    font-size: 140%;
+}
+
+
+table .d6 td {
+    height:3rem;
+    font-family:'Times New Roman';
+    font-size: 160%;
+    position: relative;
+    padding-left: 3%;
+}
+table .d6 td:nth-child(1) {
+    left: 6%;
+}
+table .d6 td:nth-child(2) {
+    left: 20%;
+}
+table .d6 td:nth-child(3) {
+    left:44%;
+    font-size: 140%;
+}
+table .d6 td:nth-child(4) {
+    left:79%;
+    font-size: 140%;
+}
+table .d6 td:nth-child(5) {
+    left: 110%;
+    font-size: 140%;
+}
+table .d6 td:nth-child(6) {
+    left:131%;
+    font-size: 140%;
+}
+
+table .d7 td {
+    height:3rem;
+    font-family:'Times New Roman';
+    font-size: 160%;
+    position: relative;
+    padding-left: 3%;
+}
+table .d7 td:nth-child(1) {
+    left: 6%;
+}
+table .d7 td:nth-child(2) {
+    left: 20%;
+}
+table .d7 td:nth-child(3) {
+    left:44%;
+    font-size: 140%;
+}
+table .d7 td:nth-child(4) {
+    left:79%;
+    font-size: 140%;
+}
+table .d7 td:nth-child(5) {
+    left: 110%;
+    font-size: 140%;
+}
+table .d7 td:nth-child(6) {
+    left:131%;
+    font-size: 140%;
+}
+
+
+table .d8 td {
+    height:3rem;
+    font-family:'Times New Roman';
+    font-size: 160%;
+    position: relative;
+    padding-left: 3%;
+}
+table .d8 td:nth-child(1) {
+    left: 6%;
+}
+table .d8 td:nth-child(2) {
+    left: 20%;
+}
+table .d8 td:nth-child(3) {
+    left:44%;
+    font-size: 140%;
+}
+table .d8 td:nth-child(4) {
+    left:79%;
+    font-size: 140%;
+}
+table .d8 td:nth-child(5) {
+    left: 110%;
+    font-size: 140%;
+}
+table .d8 td:nth-child(6) {
+    left:131%;
+    font-size: 140%;
+}
+
+table .d9 td {
+    height:3rem;
+    font-family:'Times New Roman';
+    font-size: 160%;
+    position: relative;
+    padding-left: 3%;
+}
+table .d9 td:nth-child(1) {
+    left: 6%;
+}
+table .d9 td:nth-child(2) {
+    left: 20%;
+}
+table .d9 td:nth-child(3) {
+    left:44%;
+    font-size: 140%;
+}
+table .d9 td:nth-child(4) {
+    left:79%;
+    font-size: 140%;
+}
+table .d9 td:nth-child(5) {
+    left: 110%;
+    font-size: 140%;
+}
+table .d9 td:nth-child(6) {
+    left:131%;
+    font-size: 140%;
+}
+.foot{
+    margin-top: 0.5%;
+    display: inline-block;
+    height:12vh;
+    width:100vw;
+}
+.foot p{
+    font-size: 82.5%;
+    color:rgb(127, 126, 128);
+}
+.foot p:nth-child(1){
+    margin-left: 1.2%;
+    display: inline-block;
+}
+.foot p:nth-child(2){
+    margin-left: 1.2%;
+    display: inline-block;
+}
+.foot p:nth-child(3){
+    margin-left: 81%;
+    display: inline-block;
+}
+.line{
+    width:100vw;
+    height:0.5px;
+    background-color: #727272;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 280px) and (max-width: 450px) {
+
+    html{
+        font-size: 22.5%;
+    }
+    body{
+    
+        background-color:  rgb(12, 26, 36);
+    }
+    header{
+        position: relative;
+        background-color: rgb(12, 26, 36);
+        width:100%;
+        height:10vh;
+    }
+    .innerheader{
+        position: relative;
+        width: 100%;
+        height:90%;
+    }
+    .logo{
+        position: absolute;
+        left:2%;
+        top:20%;
+        background-image: url(logomain.png);
+        background-size:contain;
+        background-repeat: no-repeat;
+        width: 19%;
+        height: 36%;
+    }
+    
+    .headinfo1{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        width: 20%;
+        height: 25%;
+        top:20%;
+        left:40%;
+    }
+    .button1{
+        width:25vw;
+        padding: 12%;
+        height: 25%;
+        text-align: center;
+        border-radius: 6px;
+        color: #fff;
+        background-color: rgb(39, 53, 67);
+    }
+    .button2{
+        width:25vw;
+        padding: 12%;
+        height: 25%;
+        text-align: center;
+        border-radius: 6px;
+        color: #fff;
+        margin-left: 1.5rem;
+        background-color: rgb(39, 53, 67);
+    }
+    .button3{
+        width:25vw;
+        padding: 12%;
+        height: 25%;
+        text-align: center;
+        border-radius: 6px;
+        margin-left: 1.5rem;
+        color: #fff;
+        background-color: rgb(39, 53, 67);
+    }
+    .headinfo2{
+        height:40%;
+        width: 20%;
+        position: absolute;
+        left: 78%;
+    }
+    
+    .connect{
+        left: -20%;
+        line-height: 2;
+        color: #fff;
+        border-radius: 10px;
+        width: 80%;
+        height:35%;
+        position: relative;
+        padding: 3%;
+        background-color: rgb(89, 193, 193);
+    }
+    .connect i{
+        margin-left: 6%;
+        margin-right: 4%;
+        font-size: 130%;
+        color:white;
+    }
+    
+    
+    .bestprice{
+        position: absolute;
+        top:60%;
+        left:40%;
+        font-size: 12px;
+        font-family: "Oswald";
+        color: #949494;
+    }
+    
+    
+    .bar{
+        position: absolute;
+        left: 93%;
+        top:27%;
+        width:8vw;
+        height:18%;
+    }
+    
+    .toggle {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(39, 53, 67);
+        border-radius: 50px;
+        position: absolute;
+        transition: background-color 0.5s;
+    }
+    
+    
+    .circle {
+        width: 45%;
+        height: 98%;
+        background-color: rgb(89, 193, 193);
+        border-radius: 50%;
+        position: absolute;
+        top: 4%;
+        left: calc(100% - 45%);
+        transition: left 0.5s;
+    }
+    
+.fix{
+    background-color:rgb(12, 26, 36);/*rgb(12, 26, 36);*/
+    width: 100vw;
+    height:6vh;
+    position: absolute;
+    top:40%;
+}
+
+.fixp{
+    color: rgb(89, 193, 193);
+    border-radius: 2px;
+    position: absolute;
+    font-family:'Times New Roman', Times, serif ;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(89, 193, 193);
+    width:13%;
+    font-size: 1rem;
+    padding: 0.6%;
+    left: 41%;
+    
+}
+
+}
